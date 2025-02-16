@@ -18,6 +18,8 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
         int initX;
         int initY;
 
+// by default the pac man looks up
+
         char direction = 'U'; // U - D - L - R
         int velocityX = 0;
         int velocityY = 0;
